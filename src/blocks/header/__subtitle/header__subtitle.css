@@ -1,10 +1,11 @@
 .header__subtitle {
   width: 550px;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
   font-style:  normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 24px;
   text-align: center;
   color: #fff;
+  margin: 0;
   z-index: 2;
 }

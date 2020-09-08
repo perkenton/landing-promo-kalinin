@@ -1,0 +1,9 @@
+.title_size_l {
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin: 0;
+}

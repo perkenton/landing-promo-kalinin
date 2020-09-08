@@ -1,0 +1,10 @@
+.title_size_m {
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin: 0;
+  z-index: 1;
+}
