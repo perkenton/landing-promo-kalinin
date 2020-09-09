@@ -1,0 +1,12 @@
+@import url('./__arrow-next/swiper__arrow-next.css');
+@import url('./__arrow-prev/swiper__arrow-prev.css');
+@import url('./__container/swiper__container.css');
+@import url('./__image/swiper__image.css');
+@import url('./__pagination-container/swiper__pagination-container.css');
+@import url('./__pagination-item/swiper__pagination-item.css');
+@import url('./__pagination-item/_is-active/swiper__pagination-item_is-active.css');
+@import url('./__wrapper/swiper__wrapper.css');
+
+.swiper {
+
+}

@@ -1,0 +1,8 @@
+.kalinin__text-container {
+  max-width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+}

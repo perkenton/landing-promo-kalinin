@@ -1,4 +1,7 @@
+@import url('./__text/kalinin__text.css');
+@import url('./__text-container/kalinin__text-container.css');
+
+
 .kalinin {
-  max-width: 1100px;
-  margin: 0 auto;
+
 }

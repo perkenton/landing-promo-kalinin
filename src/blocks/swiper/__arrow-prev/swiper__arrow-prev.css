@@ -1,0 +1,19 @@
+.swiper__arrow-prev {
+  width: 28px;
+  height: 50px;
+  background-image: url('../../../images/arrow-white-left.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  cursor: pointer;
+  transition: .2s linear;
+  z-index: 5;
+}
+
+.swiper__arrow-prev:hover {
+  transform: translateY(-50%) scale(1.2);
+}
