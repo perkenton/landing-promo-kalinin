@@ -1,8 +1,6 @@
 .swiper__pagination-container {
-  width: 100px;
-  height: 15px;
   position: absolute;
-  bottom: 15px;
   left: 50%;
-  z-index: 5;
+  bottom: 0;
+  transform: translateX(-50%);
 }

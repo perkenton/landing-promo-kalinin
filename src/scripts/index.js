@@ -23,8 +23,8 @@ import Swiper, { Navigation, Pagination } from 'swiper';
       el: '.swiper__pagination-container',
       type: 'bullets',
       clickable: true,
-      bulletClass: '.swiper__pagination-item',
-      bulletActiveClass: '.swiper__pagination-item_is-active',
+      bulletClass: 'swiper__pagination-item',
+      bulletActiveClass: 'swiper__pagination-item_is-active',
     },
 
     navigation: {

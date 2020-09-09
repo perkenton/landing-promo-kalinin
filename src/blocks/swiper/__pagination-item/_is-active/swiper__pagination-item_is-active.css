@@ -1,5 +1,6 @@
 .swiper__pagination-item_is-active {
-  background-color: #1A1B22;
+  background-color: #1B4D97;
+  transform: scale(1.5);
   cursor: default;
 }
 
