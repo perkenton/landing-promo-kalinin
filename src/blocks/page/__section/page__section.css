@@ -1,7 +1,23 @@
 .page__section {
-  width: calc(100% - 64px);
+  max-width: 1440px;
   margin: auto;
   text-align: center;
   padding-top: 72px;
   padding-bottom: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media (max-width: 500px) {
+  .page__section {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+}
+
+@media (max-width: 350px) {
+  .page__section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }

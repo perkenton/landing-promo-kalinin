@@ -3,11 +3,12 @@
   position: relative;
   text-align: left;
   overflow: hidden;
+  margin-top: 64px;
 }
 
 .swiper__container::before {
   content: '';
-  width: 50px;
+  width: 24px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -18,11 +19,20 @@
 
 .swiper__container::after {
   content: '';
-  width: 50px;
+  width: 24px;
   height: 100%;
   position: absolute;
   top: 0;
   right: 0;
   background: linear-gradient(to right, rgba(42, 44, 47, 0) 0%, rgba(42, 44, 47, 1) 100%);
   z-index: 2;
+}
+
+@media (max-width: 640px) {
+  .swiper__container::before {
+    content: none;
+  }
+  .swiper__container::after {
+    content: none;
+  }
 }

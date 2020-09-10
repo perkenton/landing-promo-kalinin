@@ -21,3 +21,9 @@
   transform: translateY(-18px) scale(1.2);
   opacity: 1;
 }
+
+@media (max-width: 424px) {
+  .swiper__arrow-prev {
+    display: none;
+  }
+}

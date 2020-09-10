@@ -1,5 +1,5 @@
 .section__subtitle {
-  width: 550px;
+  msx-width: 550px;
   font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
   font-style:  normal;
   font-weight: 400;
@@ -9,4 +9,10 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 36px;
+}
+
+@media (max-width: 380px) {
+  .section__subtitle {
+    font-size: 18px;
+  }
 }

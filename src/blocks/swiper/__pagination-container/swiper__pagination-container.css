@@ -10,3 +10,9 @@
 .swiper__pagination-container:hover {
   opacity: 1;
 }
+
+@media (max-width: 424px) {
+  .swiper__pagination-container {
+    opacity: 1;
+  }
+}

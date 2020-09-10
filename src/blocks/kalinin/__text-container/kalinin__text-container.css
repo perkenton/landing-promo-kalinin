@@ -2,7 +2,19 @@
   max-width: 500px;
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 16px;
   margin-left: 12px;
   margin-right: 12px;
+}
+
+@media (max-width: 1116px) {
+  .kalinin__text-container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 424px) {
+  .kalinin__text-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

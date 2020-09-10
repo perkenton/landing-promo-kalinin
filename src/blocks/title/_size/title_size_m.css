@@ -8,3 +8,11 @@
   margin-bottom: 24px;
   z-index: 2;
 }
+
+@media (max-width: 500px) {
+  .title_size_m {
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+  }
+}

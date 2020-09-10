@@ -1,3 +1,21 @@
 .swiper__wrapper {
   height: 350px;
 }
+
+@media (max-width: 768px) {
+  .swiper__wrapper {
+    height: 300px;
+  }
+}
+
+@media (max-width: 570px) {
+  .swiper__wrapper {
+    height: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  .swiper__wrapper {
+    height: 200px;
+  }
+}
