@@ -1,6 +1,8 @@
 @import url('./__image/section__image.css');
+@import url('./__info-block/section__info-block.css');
 @import url('./__subtitle/section__subtitle.css');
 @import url('./__text/section__text.css');
+@import url('./__text-container/section__text-container.css');
 
 
 .section {

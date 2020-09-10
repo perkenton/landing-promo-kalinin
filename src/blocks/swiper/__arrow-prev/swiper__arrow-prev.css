@@ -1,13 +1,13 @@
 .swiper__arrow-prev {
-  width: 35px;
-  height: 35px;
+  width: 36px;
+  height: 36px;
   background-image: url('../../../images/arrow-white-left.svg');
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: 45%;
   border: 2px solid #fff;
   border-radius: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-33px);
   position: absolute;
   top: 50%;
   left: 16px;

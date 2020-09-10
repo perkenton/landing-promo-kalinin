@@ -1,4 +1,8 @@
 .link {
   text-decoration: underline;
-  color: skyblue;
+  color: #1b4d97;
+}
+
+.link:hover {
+  text-decoration: none;
 }
