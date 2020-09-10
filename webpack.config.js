@@ -51,9 +51,6 @@ module.exports = {
           {
             loader: 'image-webpack-loader',
             options: {
-              webp: {
-                quality: 75
-              },
               mozjpeg: {
                 progressive: true,
                 quality: 65
