@@ -1,6 +1,12 @@
 .swiper__pagination-container {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 4px;
+  cursor: default;
   transform: translateX(-50%);
+  opacity: .5;
+}
+
+.swiper__pagination-container:hover {
+  opacity: 1;
 }

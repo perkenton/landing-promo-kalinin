@@ -7,15 +7,17 @@
   background-position: 45%;
   border: 2px solid #fff;
   border-radius: 50%;
-  transform: translateY(-33px);
+  transform: translateY(-18px);
   position: absolute;
   top: 50%;
   left: 16px;
   cursor: pointer;
+  opacity: .5;
   transition: .2s linear;
   z-index: 5;
 }
 
 .swiper__arrow-prev:hover {
-  transform: translateY(-50%) scale(1.2);
+  transform: translateY(-18px) scale(1.2);
+  opacity: 1;
 }

@@ -1,9 +1,5 @@
 .swiper__pagination-item_is-active {
-  background-color: #1B4D97;
+  background-color: #fff;
   transform: scale(1.5);
   cursor: default;
-}
-
-.swiper__pagination-item_is-active:hover {
-  transform: none;
 }
