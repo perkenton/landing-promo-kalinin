@@ -17,7 +17,7 @@ Swiper.use([Navigation, Pagination]);
       setWrapperSize: true,
       grabCursor: true,
       loop: true,
-      // spaceBetween: 15,
+      spaceBetween: 15,
       wrapperClass: 'swiper__wrapper',
       slideClass: 'swiper__image',
 

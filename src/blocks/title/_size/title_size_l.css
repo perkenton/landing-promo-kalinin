@@ -1,10 +1,22 @@
 .title_size_l {
   font-weight: 700;
-  font-size: 64px;
-  letter-spacing: 6px;
+  font-size: 68px;
+  letter-spacing: 8px;
   text-transform: uppercase;
-  color: #fff;
+  color: #f1f1f1;
+  position: relative;
   margin-top: 42px;
-  margin-bottom: 42px;
+  margin-bottom: 64px;
   z-index: 2;
+}
+
+.title_size_l:after {
+  content: '';
+  position: absolute;
+  top: 105px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-bottom: 2px solid #fff;
+  width: 200px;
+  z-index: 1;
 }
