@@ -1,8 +1,13 @@
 .link {
   text-decoration: underline;
   color: #4E80CB;
+  transition: .2s linear;
 }
 
 .link:hover {
   text-decoration: none;
+}
+
+.link:focus {
+  outline: 1px dotted #4E80CB;
 }
