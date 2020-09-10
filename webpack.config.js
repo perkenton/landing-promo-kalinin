@@ -59,8 +59,8 @@ module.exports = {
                 quality: [0.65, 0.90],
                 speed: 4
               },
-              webp: {
-                quality: 75
+              gifsicle: {
+                interlaced: false,
               },
             }
           },
