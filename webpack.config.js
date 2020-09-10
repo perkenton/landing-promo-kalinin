@@ -51,10 +51,6 @@ module.exports = {
           {
             loader: 'image-webpack-loader',
             options: {
-              // optipng.enabled: false will disable optipng
-              optipng: {
-                enabled: false,
-              },
               pngquant: {
                 quality: [0.65, 0.90],
                 speed: 4
